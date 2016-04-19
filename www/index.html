@@ -27,10 +27,10 @@
         <!-- link rel="stylesheet" type="text/css" href="css/index.css" / -->
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 		<script type="text/javascript">
-			document.addEventListener("deviceready",onDeviceReady,false);
+		document.addEventListener("deviceready",onDeviceReady,false);
 		function onDeviceReady(){
-			console.log("Device Ready")
-			var push = PushNotification.init({ "android": {"senderID": "718397155156"},
+			alert("Device Ready")  
+			/*var push = PushNotification.init({ "android": {"senderID": "718397155156"},
 			"ios": {"alert": "true", "badge": "true", "sound": "true"}, "windows": {} } );
 
 			push.on('registration', function(data) {
@@ -50,7 +50,7 @@
 
 			push.on('error', function(e) {
 			console.log(e.message);
-			});
+			});*/
 		}
 		</script>
     </head>
