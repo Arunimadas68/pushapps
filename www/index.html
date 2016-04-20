@@ -34,12 +34,12 @@
 			"ios": {"alert": "true", "badge": "true", "sound": "true"}, "windows": {} } );
 
 			push.on('registration', function(data) {
-			console.log(data.registrationId);
+			alert(data.registrationId);
 			$("#gcm_id").html(data.registrationId);
 			});
 
 			push.on('notification', function(data) {
-			console.log(data.message);
+			alert(data.message);
 			alert(data.title+" Message: " +data.message);
 			// data.title,
 			// data.count,
@@ -49,7 +49,7 @@
 			});
 
 			push.on('error', function(e) {
-			console.log(e.message);
+			alert(e.message);
 			});*/
 		}
 		</script>

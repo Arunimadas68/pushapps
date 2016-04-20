@@ -33,7 +33,7 @@
        <script type="text/javascript">
 		document.addEventListener("deviceready",onDeviceReady,false);
 		function onDeviceReady(){
-			alert("Device Ready");  
+			alert("hi");  
 			/*var push = PushNotification.init({ "android": {"senderID": "718397155156"},
 			"ios": {"alert": "true", "badge": "true", "sound": "true"}, "windows": {} } );
 
@@ -86,14 +86,15 @@
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
 		 <script type="text/javascript">
-		document.addEventListener("deviceready",onDeviceReady,false);
+		//document.addEventListener("deviceready",onDeviceReady,false);
 		function onDeviceReady(){
 			alert("Device Ready");  
-			/*var push = PushNotification.init({ "android": {"senderID": "718397155156"},
+		/*	var push = PushNotification.init({ "android": {"senderID": "718397155156"},
 			"ios": {"alert": "true", "badge": "true", "sound": "true"}, "windows": {} } );
 
 			push.on('registration', function(data) {
-			alert(data.registrationId);
+			
+			(data.registrationId);
 			$("#gcm_id").html(data.registrationId);
 			});
 
