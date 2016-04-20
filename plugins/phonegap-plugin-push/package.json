@@ -13,19 +13,15 @@
     "cordova": {
         "id": "phonegap-plugin-push",
         "platforms": [
-            "ios",
+            
             "android",
-            "windows",
             "browser"
         ]
     },
     "keywords": [
         "ecosystem:cordova",
         "ecosystem:phonegap",
-        "cordova-ios",
         "cordova-android",
-        "cordova-windows8",
-        "cordova-windows",
         "cordova-wp8",
         "cordova-browser"
     ],
